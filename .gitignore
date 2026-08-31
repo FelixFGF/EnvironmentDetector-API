@@ -1,0 +1,54 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Java
+*.class
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+generated/
+
+# IDE / tooling
+.factorypath
+.recommenders/
+
+# Misc
+bin/
+target/

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "environmentdetector",
+  "version": "${version}",
+  "name": "EnvironmentDetector API",
+  "description": "EnvironmentDetector is a lightweight Fabric API that automatically detects launcher, platform, modpack, loader, and environment information through a simple placeholder and developer API system.",
+  "authors": [
+    "FelixFGF"
+  ],
+  "contact": {
+    "issues": "https://discord.gg/mP23dpVQ6V",
+    "homepage": "https://modrinth.com/mod/environmentdetector-api"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.felixfgf.environmentdetector.Environmentdetector"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21"
+  }
+}
